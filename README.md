@@ -1,5 +1,5 @@
-<<<<<<< HEAD
+
 # Docker Learning
-=======
+
 
 
