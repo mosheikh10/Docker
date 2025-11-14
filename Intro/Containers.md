@@ -27,3 +27,39 @@ All containers share the same:
 - **Security boundary** → The kernel isolates containers via namespaces and cgroups — so one container can’t easily interfere with another or the host.
 
 ✅ Benefit: You get isolation and portability like VMs, but with speed and efficiency closer to running apps directly on the host.
+
+
+---
+
+<img width="1334" height="740" alt="image" src="https://github.com/user-attachments/assets/c3e2e88d-0f3c-4c82-885f-3ec65b6343ef" />
+
+# Containers vs. Virtual Machines
+
+## 🖥️ Virtual Machine (VM)
+
+- Each VM runs its own **Guest OS** (e.g., full Linux/Windows) → heavy and slow to start.
+- Managed by a **Hypervisor** (e.g., VMware, VirtualBox, Hyper-V) that sits on top of the Host OS.
+- Apps + Bins/Libs + Guest OS = large footprint per app.
+- Great for full OS isolation or running different OSes on same hardware.
+
+## 🐳 Docker Containers
+
+- No Guest OS — apps run directly on the **Host OS kernel** via the **Docker Engine**.
+- Apps + Bins/Libs only → lightweight, fast to start, and efficient.
+- Share the host kernel but are isolated via namespaces/cgroups.
+- Ideal for microservices, CI/CD, and scaling many apps on one host.
+
+---
+
+✅ Key Difference:  
+**VMs virtualize hardware → each gets its own OS.**  
+**Containers virtualize the OS → share the host kernel.**
+
+💡 Choose VMs for strong isolation or legacy apps.  
+💡 Choose Containers for speed, density, and modern DevOps workflows.
+
+
+<img width="665" height="368" alt="Screenshot 2025-11-14 at 15 18 01" src="https://github.com/user-attachments/assets/74325773-7a80-4f60-82f1-2b53c694310a" />
+
+
+
