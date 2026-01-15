@@ -9,7 +9,7 @@ The Flask app stores and retrieves a visit counter from Redis.
 ## Services
 
 ### Flask
-- Exposes a web server on port 5000
+- Exposes a web server on port 5001
 - Provides two routes:
   - `/` → Welcome message
   - `/count` → Increments and displays a visit count stored in Redis
