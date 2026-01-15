@@ -2,4 +2,13 @@
 # Docker Learning
 
 
+## Hands-On Project
 
+This repository includes a **hands-on project** where I deployed a web server and linked it to a **custom domain** using **AWS Route 53**.  
+Through this assignment, I learned how **DNS records** and **internet routing** function in real-world setups.
+
+<p align="center">
+  <a href="https://github.com/mosheikh10/Docker/tree/main/project" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Assignment-Click%20Here-blue?style=for-the-badge" alt="Assignment Link"/>
+  </a>
+</p>
