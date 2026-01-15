@@ -4,8 +4,8 @@
 
 ## Hands-On Project
 
-This repository includes a **hands-on project** where I deployed a web server and linked it to a **custom domain** using **AWS Route 53**.  
-Through this assignment, I learned how **DNS records** and **internet routing** function in real-world setups.
+This repository includes a **hands-on project** where I .  
+Through this assignment, I learned how .
 
 <p align="center">
   <a href="https://github.com/mosheikh10/Docker/tree/main/project" target="_blank">
