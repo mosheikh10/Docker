@@ -18,7 +18,7 @@ The Flask app stores and retrieves a visit counter from Redis.
 
   - `/count` → Increments and displays a visit count stored in Redis
  
-  <img width="1271" height="453" alt="Screenshot 2026-01-16 at 14 24 32" src="https://github.com/user-attachments/assets/5df48004-2ac0-4097-8a82-3146b20b1e16" />
+    <img width="1271" height="453" alt="Screenshot 2026-01-16 at 14 24 32" src="https://github.com/user-attachments/assets/5df48004-2ac0-4097-8a82-3146b20b1e16" />
 
 
 ### Redis
